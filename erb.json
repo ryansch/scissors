@@ -1,0 +1,11 @@
+{
+  "tag": {
+    "prefix": "tag",
+    "body": [
+      "<%= tag.${1:name} do %>",
+      "  $0",
+      "<% end -%>"
+    ],
+    "description": "rails tag helper"
+  }
+}

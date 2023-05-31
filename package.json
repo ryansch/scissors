@@ -1,0 +1,22 @@
+{
+  "name": "moar-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "eruby"
+        ],
+        "path": "./erb.json"
+      },
+      {
+        "language": [
+          "ruby"
+        ],
+        "path": "./ruby.json"
+      }
+    ]
+  }
+}
