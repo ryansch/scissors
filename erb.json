@@ -7,5 +7,14 @@
       "<% end -%>"
     ],
     "description": "rails tag helper"
+  },
+  "turbo_frame_tag": {
+    "prefix": "turbo_frame_tag",
+    "body": [
+      "<%= turbo_frame_tag :${1:name} do %>",
+      "  $0",
+      "<% end -%>"
+    ],
+    "description": "turbo frame tag"
   }
 }
